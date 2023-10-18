@@ -1,0 +1,8 @@
+cmake . -B build \
+-DISL_LIB_DIRECTORY=/home/riksharm/tiramisu/3rdParty/isl/build/lib \
+-DISL_INCLUDE_DIRECTORY=/home/riksharm/tiramisu/3rdParty/isl/ \
+-DPython3_EXECUTABLE=`which python3` \
+-DHalide_DIR=/home/riksharm/tiramisu/3rdParty/Halide/install/lib/cmake/Halide/ \
+-DHalideHelpers_DIR=/home/riksharm/tiramisu/3rdParty/Halide/install/lib/cmake/HalideHelpers/ \
+-DHALIDE_LIB=/home/riksharm/tiramisu/3rdParty/Halide/install/lib/libHalide.so
+
